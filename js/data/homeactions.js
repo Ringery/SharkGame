@@ -135,6 +135,23 @@ SharkGame.HomeActions = {
             helpText: "Use your natural shark prowess to find and catch a fish.",
         },
 
+        rollDice: {
+            name: "Roll Dice",
+            effect: {
+                resource: {
+                    get dice() {
+                        return SharkGame.Aspects.apotheosis.level > 0 ? SharkGame.Aspects.apotheosis.level * 4 : 1;
+                    },
+                },
+            },
+            cost: {},
+            prereq: {},
+            outcomes: [
+              "WOW!!"
+            ],
+            helpText: "Use your fins to flip a mysterious dice",
+        },
+        
         debugbutton: {
             name: "Debug stuff",
             effect: {
@@ -4600,7 +4617,7 @@ SharkGame.HomeActionCategories = {
 
     basic: {
         name: "Basic",
-        actions: ["catchFish", "debugbutton", "prySponge", "prySponge2", "getClam", "getJellyfish"],
+        actions: ["catchFish", "rollDice", "debugbutton", "prySponge", "prySponge2", "getClam", "getJellyfish"],
     },
 
     frenzy: {
