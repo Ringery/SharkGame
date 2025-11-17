@@ -200,6 +200,15 @@ SharkGame.ResourceTable = {
         value: 3,
     },
 
+    dice: {
+        name: "casino dice",
+        singleName: "casino die",
+        desc: "A gambler's begining...",
+        color: "#C7BD75",
+        value: 3,
+    },
+
+
     crystal: {
         name: "crystals",
         singleName: "crystal",
@@ -1474,6 +1483,7 @@ SharkGame.ResourceCategories = {
             "coral",
             "algae",
             "seagrass",
+            "dice",
             // "stone",
             // "gravel",
         ],
@@ -1664,7 +1674,7 @@ SharkGame.InternalCategories = {
         resources: ["calcinium", "seabedStripper", "calciniumConverter", "clamScavenger"],
     },
     basicmaterials: {
-        resources: ["fish", "sand", "crystal", "science", "junk"],
+        resources: ["fish", "sand", "crystal", "science", "junk", "dice"],
     },
     kelpstuff: {
         resources: ["kelp", "seaApple"],
