@@ -3221,6 +3221,8 @@ SharkGame.HomeActions = {
     marine: {
         catchFish: {},
 
+        rollDice: {},
+        
         debugbutton: {},
 
         getClam: {
