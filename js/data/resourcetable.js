@@ -1674,7 +1674,7 @@ SharkGame.InternalCategories = {
         resources: ["calcinium", "seabedStripper", "calciniumConverter", "clamScavenger"],
     },
     basicmaterials: {
-        resources: ["fish", "sand", "crystal", "science", "junk", "dice"],
+        resources: ["fish", "dice", "sand", "crystal", "science", "junk",],
     },
     kelpstuff: {
         resources: ["kelp", "seaApple"],
